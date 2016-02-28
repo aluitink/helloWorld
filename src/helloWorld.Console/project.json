@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "helloWorld.Console Console Application",
+  "authors": [ "Andrew" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "helloWorld.Console": "run"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+    }
+}
