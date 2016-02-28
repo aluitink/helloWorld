@@ -11,7 +11,7 @@ namespace helloWorld.Console
             while (true)
             {
                 System.Console.WriteLine("Hello World {0}", DateTime.Now.Ticks);
-                Task.Delay(1000);
+                Thread.Sleep(1000);
             }
         }
     }
